@@ -1,0 +1,72 @@
+local function help()
+print([[
+Uso: amp  <args>
+
+Args:
+
+-f / --file <archivo>        Abrir el archivo en modo interactivo.
+-p / --play <archivo>     Reproducir el archivo inmediatamente (no para).
+-h / --help                    Mostrar esta ayuda.
+]])
+end
+local function play(args)
+	if fs.exists(args[2]) then
+		reproducir(false)
+end
+local function file(args)
+	if fs.exists(args[2]) then
+		reproducir(true)
+end
+local function sacar_notas(str)
+	-- 5, 8, 12
+	notas = {}
+	comienzo = 0
+	tmp = 1
+	i = 0
+	while comienzo ~= nil do
+		i = i + 1
+		comienzo, fin = str:find(", ", tmp)
+		if  not comienzo  then
+			print("Error en la linea "..i)
+			notas = nil
+			break
+		end
+		notas[i] = tonumber(str:sub(tmp, fin+1))
+		tmp = fin + 1
+	end
+	return notas
+end
+local function analizar(linea)
+	comienzo, fin = linea:find("Piano: ")
+	longitud = fin + 1
+	ini_dur, fin_dur = string.find(linea, "; Dur: ")
+	duracion = string.sub(linea, fin_dur + 1)
+	if comienzo == 1 then
+		return sacar_notas(linea:sub(longitud, ini_dur - 1))
+	end
+end
+-- Piano: 5, 8, 12; Dur: 5
+
+local function amp_init(args)
+	if #args==0 then
+		help()
+	elseif #args==1 then
+		s = nil
+		s = switch.new_switch()
+		s:add_case({"-h","--help"}, help(...))
+		s:set_default(print("ERROR: Faltan mas Argumentos."))
+	else
+		s = nil
+		s = switch.new_switch()
+		s:add_case({"-f","--file"}, file(...))
+		s:add_case({"-p", "--play"}, play(...))
+		s:set_default(print("ERROR: faltan mas Argumentos"))
+	end
+	s:test(args)
+	
+end
+os.loadAPI("switch")
+amp_init({...})
+
+
+

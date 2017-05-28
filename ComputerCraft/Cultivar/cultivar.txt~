@@ -1,0 +1,169 @@
+
+---- [1, 1] voltear = true, voltear_der = true, cont = 1 ----
+
+Girando Derecha
+Plantando abajo con el slot 1
+
+---- [1, 2] voltear = false, voltear_der = false, cont = 2 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [1, 3] voltear = false, voltear_der = false, cont = 2 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [1, 4] voltear = false, voltear_der = false, cont = 2 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [2, 1] voltear = true, voltear_der = false, cont = 2 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [2, 2] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [2, 3] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [2, 4] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [3, 1] voltear = true, voltear_der = false, cont = 0 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [3, 2] voltear = true, voltear_der = false, cont = 1 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [3, 3] voltear = false, voltear_der = true, cont = 2 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [3, 4] voltear = false, voltear_der = true, cont = 2 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [4, 1] voltear = true, voltear_der = true, cont = 2 ----
+
+Girando Derecha
+Plantando abajo con el slot 1
+
+---- [4, 2] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [4, 3] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [4, 4] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [5, 1] voltear = true, voltear_der = true, cont = 0 ----
+
+Girando Derecha
+Plantando abajo con el slot 1
+
+---- [5, 2] voltear = true, voltear_der = true, cont = 1 ----
+
+Girando Derecha
+Plantando abajo con el slot 1
+
+---- [5, 3] voltear = false, voltear_der = false, cont = 2 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [5, 4] voltear = false, voltear_der = false, cont = 2 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [6, 1] voltear = true, voltear_der = false, cont = 2 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [6, 2] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [6, 3] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [6, 4] voltear = false, voltear_der = false, cont = 0 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [7, 1] voltear = true, voltear_der = false, cont = 0 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [7, 2] voltear = true, voltear_der = false, cont = 1 ----
+
+Girando Izquierda
+Plantando abajo con el slot 1
+
+---- [7, 3] voltear = false, voltear_der = true, cont = 2 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [7, 4] voltear = false, voltear_der = true, cont = 2 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [8, 1] voltear = true, voltear_der = true, cont = 2 ----
+
+Girando Derecha
+Plantando abajo con el slot 1
+
+---- [8, 2] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [8, 3] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Plantando abajo con el slot 1
+
+---- [8, 4] voltear = false, voltear_der = true, cont = 0 ----
+
+Moviendo Adelante
+Moviendo Adelante
+Plantando abajo con el slot 1
+Saliendo
