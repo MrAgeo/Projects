@@ -1,0 +1,3 @@
+#!/bin/bash
+
+love "$( cd -P "$( dirname "$SOURCE" )" && pwd )/src"
