@@ -1,4 +1,9 @@
 -- ### SJTLib_SoundLib Init File ###
-
-require "SJTLib.SoundLib.Oscillator"
-require "SJTLib.SoundLib.FileIO"
+local current_folder = (...):gsub('%.[^%.]+$', '') .. ".SoundLib"
+local cls = {"FileIO", "Oscillator", "SoundEncoder", "SoundFile"}
+local function req()
+  for k,v in pairs(cls) do
+    require(current_folder .."."..v)
+  end
+end
+req()

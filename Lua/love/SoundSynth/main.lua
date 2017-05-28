@@ -38,7 +38,6 @@ function love.load()
     end
     file = FileIO.newFile("out.1raw")
     file:write(sD:getString())
-    --]]
     
     ---#### Part 2 ###
     rate = 44100
@@ -63,7 +62,7 @@ function love.load()
     print(unpack(b1),unpack(b2))
     print(unpack(Helper.separateInBytes(Helper.floatToIEEE754_32(sample*SHRT_MAX))))
     print(unpack(Helper.separateInBytes(Helper.floatToIEEE754_16(sample*SHRT_MAX))))
-    
+    --]]
     
     print(unpack(Helper.separateInBytes(Helper.decimalToBin(3212836864))))
     print(unpack(Helper.separateInBytes(Helper.floatToIEEE754_32(-1))))
